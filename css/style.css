@@ -39,9 +39,6 @@ header{
 }
 
 .img-txt{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 1rem;
     background-color: rgb(255, 255, 255);
 }
@@ -49,12 +46,12 @@ header{
 .img-txt-content{
     max-width: 1180px;
     margin: auto;
-}
-
-.txt-img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.txt-img{
     margin-bottom: 1rem;
     background-color: rgb(139, 139, 139);
 
@@ -63,6 +60,9 @@ header{
 .txt-img-content{
     max-width: 1180px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .big-image{
